@@ -1,34 +1,67 @@
-# Constly
+<p align="center">
+  <img src="assets/demo.gif" width="720" alt="Constly rendering markdown as you type: a heading, bold text, a task list, a quote, and a syntax-highlighted code block resolve in place while the raw marks melt away, and the editor shifts from light to dark.">
+</p>
 
-Constly is a WYSIWYG markdown editor that renders the marks away as you type.
-Local-first, private, plain `.md`. Native builds for macOS, Windows, and Linux.
+<h1 align="center">Constly</h1>
 
-**Download: [constly.com/download](https://constly.com/download)**
+<p align="center">
+  <b>A WYSIWYG markdown editor that renders the marks away as you type.</b><br>
+  Local-first, private, plain <code>.md</code>. Native builds for macOS, Windows, and Linux.
+</p>
 
-This repository is Constly's community home. It is where you:
+<p align="center">
+  <a href="https://constly.com/download"><img src="https://img.shields.io/badge/download-constly.com-4666d1?style=flat-square" alt="Download"></a>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdownloads.constly.com%2Flatest.json&query=%24.version&label=version&prefix=v&color=4666d1&style=flat-square" alt="Latest version">
+  <img src="https://img.shields.io/badge/free%20to%20use-no%20account-4666d1?style=flat-square" alt="Free to use">
+  <a href="https://github.com/RunTheWall/constly-app/stargazers"><img src="https://img.shields.io/github/stars/RunTheWall/constly-app?style=social" alt="Stars"></a>
+</p>
 
-- **Report bugs and request features** in [Issues](https://github.com/RunTheWall/constly-app/issues)
-- **Follow the [roadmap](ROADMAP.md)** and upvote what matters to you
-- **Read the [release notes](CHANGELOG.md)**, also browsable at [runthewall.github.io/constly-app](https://runthewall.github.io/constly-app/)
+<p align="center">
+  <b>Runs on</b>
+  <img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white" alt="macOS">
+  <img src="https://img.shields.io/badge/Windows%2010%2F11-0078D6?logo=windows&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux">
+</p>
 
-The app is closed source. There is no source code in this repository and no
-builds to download here. Every release lives on
-[constly.com](https://constly.com/download), signed and notarized. To report a
-security vulnerability, see the [security policy](SECURITY.md).
+<p align="center">
+  <a href="https://constly.com/download"><b>Download</b></a> &nbsp;·&nbsp;
+  <a href="https://runthewall.github.io/constly-app/">Release notes</a> &nbsp;·&nbsp;
+  <a href="ROADMAP.md">Roadmap</a> &nbsp;·&nbsp;
+  <a href="https://constly.com/blog">Blog</a>
+</p>
+
+---
+
+Type `# a heading`, `**bold**`, a table, a code fence, and each one renders in
+place, the raw marks melting away as you go. Your file on disk stays plain
+markdown, byte for byte. No web app in a wrapper, no proprietary format, no
+account.
 
 ## Install
 
 | Platform | How |
 |---|---|
-| macOS | [Download the DMG](https://constly.com/download), or `brew install --cask runthewall/tap/constly` |
-| Windows | [Download the installer](https://constly.com/download) (signed) |
-| Linux | [Download](https://constly.com/download) the `.deb`, `.rpm`, or tarball |
+| **macOS** | [Download the DMG](https://constly.com/download) (Apple Silicon or Intel), or `brew install --cask runthewall/tap/constly` |
+| **Windows** | [Download the installer](https://constly.com/download) (signed, 10 and 11, 64-bit) |
+| **Linux** | [Download](https://constly.com/download) the `.deb`, `.rpm`, or tarball |
 
-## Links
+## This repository
 
-- Download: <https://constly.com/download>
-- Blog: <https://constly.com/blog>
-- Pricing: <https://constly.com/#pricing>
+Constly is a closed-source app: there is no source code here and no builds to
+download in this repo. Every release lives on
+[constly.com](https://constly.com/download), signed and notarized. This is the
+community home, where you:
 
-Constly is free to use for as long as you need, with an optional one-time
-license. No subscription, no watermark, no account. Made by Run The Wall Pty Ltd.
+- **Report bugs and request features** in [Issues](https://github.com/RunTheWall/constly-app/issues/new/choose)
+- **Follow the [roadmap](ROADMAP.md)** and upvote what matters to you
+- **Read the [release notes](CHANGELOG.md)**, also browsable at [runthewall.github.io/constly-app](https://runthewall.github.io/constly-app/)
+
+To report a security vulnerability, see the [security policy](SECURITY.md).
+
+---
+
+<p align="center">
+  Constly is free to use for as long as you need, with an optional one-time
+  license.<br>No subscription, no watermark, no account.
+  Made by <a href="https://github.com/RunTheWall">Run The Wall Pty Ltd</a>.
+</p>
