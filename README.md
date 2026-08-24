@@ -13,6 +13,7 @@
   <a href="https://constly.com/download"><img src="https://img.shields.io/badge/download-constly.com-4666d1?style=flat-square" alt="Download"></a>
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdownloads.constly.com%2Flatest.json&query=%24.version&label=version&prefix=v&color=4666d1&style=flat-square" alt="Latest version">
   <img src="https://img.shields.io/badge/free%20to%20use-no%20account-4666d1?style=flat-square" alt="Free to use">
+  <a href="https://github.com/RunTheWall/homebrew-tap"><img src="https://img.shields.io/badge/homebrew-runthewall%2Ftap-4666d1?style=flat-square&logo=homebrew&logoColor=white" alt="Homebrew tap"></a>
   <a href="https://github.com/RunTheWall/constly-app/stargazers"><img src="https://img.shields.io/github/stars/RunTheWall/constly-app?style=social" alt="Stars"></a>
 </p>
 
@@ -41,9 +42,37 @@ account.
 
 | Platform | How |
 |---|---|
-| **macOS** | [Download the DMG](https://constly.com/download) (Apple Silicon or Intel), or `brew install --cask runthewall/tap/constly` |
+| **macOS** | [Download the DMG](https://constly.com/download) (Apple Silicon or Intel), or install with Homebrew (below) |
 | **Windows** | [Download the installer](https://constly.com/download) (signed, 10 and 11, 64-bit) |
 | **Linux** | [Download](https://constly.com/download) the `.deb`, `.rpm`, or tarball |
+
+On macOS, install and stay current through Homebrew:
+
+```sh
+brew install --cask runthewall/tap/constly
+```
+
+Or tap first, then install:
+
+```sh
+brew tap runthewall/tap
+brew install --cask constly
+```
+
+The cask points at the signed, notarized builds and uses Constly's own updater, so
+it keeps itself current.
+
+## Pricing
+
+Constly is free to use for as long as you need. Every feature is unlocked, nothing
+expires, and exports never carry a watermark. No account, no card. After two weeks
+a gentle dialog asks you to buy, and that dialog is the whole business model.
+
+To retire the reminder and back a tiny studio, a one-time license is **$19.99 USD**
+(plus applicable tax). No subscription, ever, and one license covers every platform
+you use. Need several seats? Volume licenses are available on request.
+
+See the full details on [constly.com](https://constly.com/#pricing).
 
 ## This repository
 
@@ -61,7 +90,6 @@ To report a security vulnerability, see the [security policy](SECURITY.md).
 ---
 
 <p align="center">
-  Constly is free to use for as long as you need, with an optional one-time
-  license.<br>No subscription, no watermark, no account.
-  Made by <a href="https://github.com/RunTheWall">Run The Wall Pty Ltd</a>.
+  Built with care by <a href="https://github.com/RunTheWall">Run The Wall Pty Ltd</a>.<br>
+  <a href="https://constly.com">constly.com</a>
 </p>
