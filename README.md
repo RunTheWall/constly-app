@@ -62,7 +62,7 @@ brew install --cask constly
 The cask points at the signed, notarized builds and uses Constly's own updater, so
 it keeps itself current.
 
-## Pricing
+## Pricing - free to use for as long as you need
 
 <p align="center">
   <img src="assets/pricing-pass.png" width="100%" alt="Constly's pricing drawn as a boarding pass: Today, free with every feature and no catch; after two weeks, a gentle weekly reminder; anytime, pay once and it is yours forever. A one-time fare of $19.99, up to 3 devices, no subscription, no expiry, no lock-in.">
