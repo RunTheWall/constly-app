@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in Constly is broken or behaving wrong.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please do not paste sensitive document contents.
+        For a security vulnerability, use the security policy, not a public issue.
+  - type: input
+    id: version
+    attributes:
+      label: Constly version
+      description: Shown in the menu, or in the update dialog's "you have X" line.
+      placeholder: "4.6.3"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Windows
+        - Linux (deb / rpm / tar)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Type ...
+        3. ...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, a short sample document, or console output.

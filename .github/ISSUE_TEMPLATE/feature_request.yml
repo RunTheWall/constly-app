@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest something Constly should do.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues first. If yours is already there, a thumbs-up
+        counts as a vote and helps it rise.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do that Constly makes hard today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you have in mind
+      description: How you imagine it working. Rough is fine.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you have tried
