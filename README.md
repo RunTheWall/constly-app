@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/demo.gif" width="720" alt="Constly rendering markdown as you type: a heading, bold text, a task list, a quote, and a syntax-highlighted code block resolve in place while the raw marks melt away, and the editor shifts from light to dark.">
+  <img src="assets/demo.webp" width="100%" alt="Constly rendering markdown as you type: a heading, bold text, a task list, a quote, and a syntax-highlighted code block resolve in place while the raw marks melt away; the editor shifts from light to dark; then the heading is clicked and its raw # briefly returns before rendering again.">
 </p>
 
 <h1 align="center">Constly</h1>
@@ -65,7 +65,7 @@ it keeps itself current.
 ## Pricing
 
 <p align="center">
-  <img src="assets/pricing-pass.png" width="620" alt="Constly's pricing drawn as a boarding pass: Today, free with every feature and no catch; after two weeks, a gentle weekly reminder; anytime, pay once and it is yours forever. A one-time fare of $19.99, up to 3 devices, no subscription, no expiry, no lock-in.">
+  <img src="assets/pricing-pass.png" width="100%" alt="Constly's pricing drawn as a boarding pass: Today, free with every feature and no catch; after two weeks, a gentle weekly reminder; anytime, pay once and it is yours forever. A one-time fare of $19.99, up to 3 devices, no subscription, no expiry, no lock-in.">
 </p>
 
 Constly is free to use for as long as you need. Every feature is unlocked, nothing
