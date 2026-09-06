@@ -3,6 +3,24 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.7.0 (2026-09-06)
+
+*Constly meets your IDE.*
+
+- **Open Markdown in Constly, straight from VS Code.** A new extension — also on
+  [Open VSX](https://open-vsx.org/extension/constly/constly), where Cursor,
+  Windsurf and VSCodium shop — hands the file you are looking at to Constly:
+  saved if it needed saving, opened at the same line and column you were on.
+  Look for *Constly: Open in Constly* in the editor title bar and the
+  right-click menu. It opens several files at once too, from Finder, Explorer
+  or the command line.
+- **Update checks get through corporate networks** that inspect TLS, instead of
+  quietly reporting "up to date" when a new version is waiting.
+- **A rarer kind of start-up hiccup on Linux is fixed** — X11 sessions no longer
+  lose a launch now and then.
+- **A file that moves or is deleted out from under you now says so**, instead of
+  being silently recreated when you save.
+
 ## 4.6.3 (2026-08-24)
 
 - Reloading a file that changed outside Constly keeps your undo history, so a
