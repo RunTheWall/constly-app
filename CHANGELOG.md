@@ -3,6 +3,13 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.7.1 (2026-09-06)
+
+- **Fixed: the Settings window would not close.** In 4.7.0 its close button did
+  nothing on every platform (maximize worked, which helped nobody). Quitting
+  Constly was the way out; nothing was lost. Fixed, with a test so this class of
+  bug fails the build instead of reaching you.
+
 ## 4.7.0 (2026-09-06)
 
 *Constly meets your IDE.*
