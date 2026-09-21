@@ -3,6 +3,31 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.8.0 (2026-09-21)
+
+*Your documents, your pictures, your say.*
+
+- **Images from anywhere, with one question.** An image that lives outside the
+  document's folder, or on the web, gets a Load button in the editor and a
+  review before a PDF or Word export. Constly asks once, in a system dialog
+  that names the file, and remembers your answer until you quit. Anything you
+  loaded is ticked when you export.
+- **Word import brings its tables and pictures.** Tables arrive as tables,
+  and the pictures come along, landing in a folder next to the file when you
+  save it.
+- **The caret lands where you click.** Under a stack of diagrams and equations,
+  a click puts the cursor on the line you aimed at.
+- **Updates show their progress.** A bar with megabytes while it downloads. If
+  you keep working while it installs, Constly asks before restarting (Mac and
+  Linux).
+- **PDF export follows your code settings.** Dark code blocks and shell
+  highlighting for unlabelled fences carry through to the PDF.
+- **Pictures beside your document appear in the PDF.** An image the export
+  cannot embed becomes a note in its place instead of stopping the export.
+- **Export dialogs open in your document's folder.**
+- A handful of smaller fixes and polish: a faster launch, crisper code
+  comments in the dark theme, and a note when a web image could not be fetched.
+
 ## 4.7.1 (2026-09-06)
 
 - **Fixed: the Settings window would not close.** In 4.7.0 its close button did
