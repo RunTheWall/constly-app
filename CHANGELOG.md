@@ -3,6 +3,16 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.8.1 (2026-09-24)
+
+*Three small things, done.*
+
+- **The PDF gets a real table of contents.** A `[toc]` line becomes the
+  list of headings with page numbers, linked, like the editor shows.
+- **Screen readers hear whether a task-list box is ticked** in the HTML
+  export.
+- **Math renders inside table cells in the editor.**
+
 ## 4.8.0 (2026-09-21)
 
 *Your documents, your pictures, your say.*
