@@ -3,6 +3,27 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.9.0 (2026-09-28)
+
+*Zoom, a page for the page, and diagrams in the PDF.*
+
+- **Zoom.** View → Zoom In, Zoom Out and Actual Size, from 50 % to 300 %,
+  remembered between launches and applied to every window.
+- **Page setup for PDF and Word.** A4 or US Letter; narrow, standard or wide
+  margins; page numbers; and a header with the document's title, or its
+  title and the date. It's all in Settings → Export.
+- **Mermaid diagrams in the PDF.** Flowcharts, sequence diagrams, charts and
+  mindmaps come out as sharp drawings sized to the page, with text you can
+  select.
+- **A table of contents in Word.** A `[toc]` line becomes a Word table of
+  contents, filled in when Word asks to update the document's fields.
+- **PDF export takes the Markdown you find in the wild:** links to sections,
+  whatever their case, old-style `<a name>` anchors, and HTML tables with
+  merged cells.
+- **Constly's windows open at a size that fits your screen**, on a small
+  laptop or at a high display scale.
+- A handful of smaller fixes and polish.
+
 ## 4.8.1 (2026-09-24)
 
 *Three small things, done.*
