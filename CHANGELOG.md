@@ -3,6 +3,15 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.9.1 (2026-09-29)
+
+- **Undo and redo cover tables.** Cmd+Z (Ctrl+Z on Windows and Linux) and,
+  on Mac, Edit → Undo take back a new row, column or alignment one step at a
+  time, and typing in a cell shares the same history.
+- **Arrow keys step through front matter and math blocks** one line at a
+  time, and front matter reads as YAML while you edit it.
+- A handful of smaller fixes and polish.
+
 ## 4.9.0 (2026-09-28)
 
 *Zoom, a page for the page, and diagrams in the PDF.*
