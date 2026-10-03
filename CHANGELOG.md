@@ -3,6 +3,18 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.10.0 (2026-10-03)
+
+- **Import a Google Doc with its formatting, links, pictures, tables and
+  comments.** Download it as "Web page (.html, zipped)" and import the zip;
+  comments arrive as footnotes.
+- **Word, ODT, RTF, LaTeX and EPUB import and export work without installing
+  anything first.** Constly offers to fetch the converter it needs (about 25
+  to 40 MB) and keeps it in its own folder.
+- **The sidebar offers Rename and Move to Trash on symlinked folders too.**
+- **On Windows, Apps & features lists Constly under Run The Wall.**
+- A handful of smaller fixes and polish.
+
 ## 4.9.1 (2026-09-29)
 
 - **Undo and redo cover tables.** Cmd+Z (Ctrl+Z on Windows and Linux) and,
