@@ -3,6 +3,32 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.12.0 (2026-10-20)
+
+- Type / on an empty line for a quick-insert menu: headings, lists, tables,
+  code and math blocks, a Mermaid diagram and more, with a preview of
+  exactly what it will insert. Screen readers hear the preview too.
+- Paste or drop a picture into a document. It is copied into an assets
+  folder beside the document and linked, so the pictures travel with it.
+  Hover a picture and press ⤢ to see it full size.
+- GitHub's callouts (`[!NOTE]`, `[!TIP]`, `[!WARNING]` and friends) show as
+  coloured notes in the editor, Reading mode and HTML export.
+- Hugo's TOML front matter (`+++`) gets the same tidy properties panel as
+  YAML, and every export agrees with the editor on what counts as front
+  matter.
+- Numbered headings for PDF, print and HTML exports, there when you turn
+  them on.
+- Select some text and the word count counts just that: "12 of 1,340 words".
+- Files sort the way people count, so `note2` comes before `note10`.
+- Dark mode reaches the scrollbars and checkboxes on Windows and Linux.
+- On a Mac, Constly opened from its disk image offers to move itself to
+  Applications, and Move to Trash works without asking to control Finder.
+- PDF export takes very large and unusual pictures in its stride, with a
+  note in place of any it can't draw.
+- On Windows, the Constly program and its uninstaller carry Run The Wall's
+  signature too.
+- A handful of smaller fixes and polish.
+
 ## 4.10.0 (2026-10-03)
 
 - **Import a Google Doc with its formatting, links, pictures, tables and
