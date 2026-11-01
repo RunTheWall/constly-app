@@ -3,6 +3,38 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.13.0 (2026-11-01)
+
+- Update checks and downloads, licence activation and the Pandoc download
+  follow your computer's proxy settings, so they work on company networks.
+  On a Mac and on Windows that includes a proxy configuration (PAC) file,
+  auto-discovery and a fixed proxy, and Constly signs in to the proxy with
+  your existing Kerberos or NTLM sign-in. On Linux it follows GNOME's
+  proxy settings and HTTPS_PROXY, with a user name and password where the
+  proxy needs one.
+- IT teams can set the update feed, a proxy and automatic update checks
+  with a macOS configuration profile or Windows Group Policy.
+- When Constly can't reach the network, the update dialog says why in
+  plain words, and Copy diagnostics gives your IT team the details.
+- Quit asks about each window with unsaved changes in turn, the one you
+  used last first, whether you quit with ⌘Q, a menu, the Dock or a script.
+- Display math indented under a list item or inside a quote draws as math,
+  and the slash menu's Math Block goes into nested list items too.
+- Insert Table (⌘T or /table) puts the caret in the new table's first
+  header cell, ready for you to name the column.
+- Coming back to a tab shows it where you left it.
+- If a file from your last session has been moved or deleted, Constly
+  tells you which one it couldn't reopen and where it was.
+- On a Mac, ⌘V pastes into the document as soon as its window is in front,
+  and Constly comes to the front after moving itself to Applications.
+- A picture written as a file URL (`file:///…`) shows in the editor and in
+  exports on every system.
+- In a narrow window, the file name keeps clear of the title bar's
+  buttons.
+- PDF export puts a note in place of a picture it can't read and carries
+  on with the rest.
+- A handful of smaller fixes and polish.
+
 ## 4.12.0 (2026-10-20)
 
 - Type / on an empty line for a quick-insert menu: headings, lists, tables,
