@@ -3,6 +3,42 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.14.1 (2026-11-06)
+
+- Constly prints on Windows and Linux: Ctrl+P and ⚙ ▸ Print… open your
+  system's print dialog, where Microsoft Print to PDF or Print to File makes
+  a PDF. Settings ▸ Export offers the "System dialog" PDF engine there too.
+- On a Mac, the print panel opens as a sheet on the window you print from,
+  so your other windows stay usable.
+- A printout's pictures follow Export PDF's rules: one outside the
+  document's folder or on the web is listed in the review first, and prints
+  only if it's ticked and you confirm.
+- With the System theme, an open window follows your computer as it switches
+  between light and dark. A diagram already on screen keeps its colours, on
+  a background that keeps it readable, until it's next redrawn.
+- Settings follows the theme switch in the editor's title bar.
+- An exported HTML page draws its scrollbars and form controls dark in a
+  dark browser, and keeps its diagrams readable there.
+- On a Mac, `brew install runthewall/tap/constly` downloads from GitHub, so
+  it works on networks that let GitHub through.
+- Web pictures on https sites in an export follow your computer's proxy
+  settings. On a Mac and on Windows that includes a proxy configuration
+  (PAC) file and auto-discovery; on Linux it follows GNOME's proxy settings
+  and HTTPS_PROXY.
+- The export's image review points out a picture in a system folder, and
+  starts it unticked unless you've already loaded it in the editor.
+- On a Mac, Constly updates itself on an external drive or a second volume,
+  as long as it can write to the folder it's in.
+- If a future version needs a newer macOS than your Mac has, Constly tells
+  you which one and keeps working as it is.
+- Unsaved edits whose file has gone to the Trash keep the file's name, and
+  Save As starts from that name.
+- On Windows and Linux, the Welcome document shows the shortcuts your
+  keyboard uses.
+- Security: this release closes a published security advisory; update to be
+  protected.
+- A handful of smaller fixes and polish.
+
 ## 4.13.0 (2026-11-01)
 
 - Update checks and downloads, licence activation and the Pandoc download
