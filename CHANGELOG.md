@@ -3,6 +3,63 @@
 What is new in each release of Constly. Download the latest at
 [constly.com/download](https://constly.com/download).
 
+## 4.15.1 (2026-11-24)
+
+- Fold a section under its heading: rest the pointer on a heading and click
+  the arrow in the margin. Fold Section, Unfold Section, Fold All Headings
+  and Unfold All are in the command palette, and on a Mac in the View menu.
+  Folding only changes what you see: saving, exports, print and search
+  still have every word.
+- When another program, an AI agent say, rewrites the file you have open,
+  Constly marks what changed right in the text, and a bar offers Keep and
+  Revert. Nothing on the page moves when the marks come or go.
+- Export from the command line: `constly export notes.md` writes a PDF with
+  your export settings, `--to html` writes the HTML file the app does, and
+  `--to docx` (or odt, rtf, latex, epub) goes through Pandoc.
+  `constly export --help` has the rest. On Windows the export runs and
+  writes its file, but nothing it says reaches the terminal yet.
+- Constly now needs macOS 12 (Monterey) or later. On a Mac with macOS 11,
+  Constly 4.14.1 tells you the update needs macOS 12, doesn't download it,
+  and keeps working as it is.
+- Updates have a second address. If downloads.constly.com can't be reached,
+  Constly checks for updates, and downloads them, from a copy on GitHub.
+  Every update is still checked against Constly's signing key before it
+  installs.
+- A saved file on a drive that isn't plugged in waits for the drive:
+  Constly keeps it in the session and tries again each time it starts, five
+  launches in all. Unsaved edits to a missing file come back under its
+  name, and if the file was changed elsewhere meanwhile, Constly shows the
+  differences beside your draft.
+- Code blocks have a Copy button. It copies just the code, with no newline
+  after the last line.
+- The outline highlights the heading you're in and opens scrolled to it.
+- `==Highlight==`, if you want it: Settings ▸ Editor ▸ Highlight ==text==.
+  Exports highlight it too. It's off unless you turn it on.
+- Hidden files in the sidebar, if you want them: Settings ▸ General ▸ Show
+  hidden files.
+- Help ▸ What's New opens these notes, and Report a Problem… and Request a
+  Feature… open the forms on Constly's public GitHub page. Help ▸ Third-Party
+  Notices opens the licences of the open-source work Constly is built on.
+  On Windows and Linux they're in the ⚙ menu.
+- An emoji in a PDF exported with the built-in engine prints as itself, in
+  black and white, where it used to come out as an empty box.
+- In a table you're editing as a grid, Up and Down move to the cell above
+  or below.
+- A file Constly opens read-only (one with mixed line endings) can no
+  longer be changed in the editor by ticking a task box, typing in a table
+  cell or the like.
+- Git change marks clear once a commit made in a terminal or another app
+  lands.
+- On a Mac, the lines of a two-line diagram label keep their spacing at
+  every zoom.
+- On Windows and Linux, Ctrl+Shift+E (Export HTML) and Ctrl+Shift+C (Copy
+  as Rich Text) work, and the sidebar's menu uses each system's own words
+  for its file manager and, on Windows, the Recycle Bin.
+- `winget uninstall` removes Constly on Windows without opening a window.
+- Security: a library that reads web addresses is updated after a flaw in
+  it was published. Nothing in Constly was found to use the affected
+  function, so this is a precaution.
+
 ## 4.14.1 (2026-11-06)
 
 - Constly prints on Windows and Linux: Ctrl+P and ⚙ ▸ Print… open your
