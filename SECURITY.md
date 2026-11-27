@@ -86,8 +86,9 @@ the app.
 
 ## Known open advisories
 
-What `cargo audit` and `pnpm audit` report as vulnerabilities against the
-current release, and why each is still there.
+What `cargo audit` and `pnpm audit --prod` report as vulnerabilities against
+the current release, in the libraries that are in a Constly installer, and why
+each is still there.
 
 | Advisory | Library | Does it affect Constly? | What closes it |
 |---|---|---|---|
@@ -105,8 +106,10 @@ as vulnerabilities:
 
 ## Fixed vulnerabilities
 
-Every advisory our records show a release closed, since 4.12.0. The status is
-one of two:
+Every advisory our records show a release closed, since 4.12.0, in the
+libraries that are in a Constly installer. Libraries used only to build
+Constly, and libraries that are locked but never built into it, are in no
+installer and are not listed. The status is one of two:
 
 - **Not affected.** We checked, and Constly did not use the affected part. The
   row says why. The library was updated anyway.
@@ -116,7 +119,6 @@ one of two:
 | Released | Version | Advisory | What changed | Status |
 |---|---|---|---|---|
 | 2026-11-24 | 4.15.1 | RUSTSEC-2026-0592 | url 2.5.8 to 2.5.9 | Not affected. Nothing in Constly was found to call the affected function. |
-| 2026-11-24 | 4.15.1 | RUSTSEC-2026-0538 | quinn-udp 0.5.14 to 0.5.16 | Fixed by update. |
 | 2026-11-06 | 4.14.1 | GHSA-w28w-mhc8-qvjv | Tauri updated to 2.12.5 | Not affected. Constly opens none of the channels involved, and using the flaw needs script already running in a Constly window, which the content-security policy and sanitizer are there to stop. |
 | 2026-11-06 | 4.14.1 | GHSA-9g54-6x48-9vpw | tauri-plugin-fs, same update | Not affected. Constly does not load that plugin. |
 | 2026-11-06 | 4.14.1 | RUSTSEC-2026-0367, -0368, -0369, -0429 | zip 4.6.1 removed | Not affected. Constly never called the affected functions, and the updater could only for a signed zip payload, which Constly's Windows update is not. |
@@ -128,7 +130,6 @@ one of two:
 | 2026-10-20 | 4.12.0 | RUSTSEC-2026-0346 | rustls updated to 0.23.46 | Not affected. It needs a custom session store, and Constly has none. |
 | 2026-10-20 | 4.12.0 | RUSTSEC-2026-0348 | rustls, same update | Not affected. It needs a compression feature that is not compiled in. |
 | 2026-10-20 | 4.12.0 | RUSTSEC-2026-0347, -0349 | rustls, same update | Fixed by update. |
-| 2026-10-20 | 4.12.0 | RUSTSEC-2026-0338 to -0342, -0523, -0524 | quinn-proto updated | Fixed by update. |
 
 ## Scope
 
