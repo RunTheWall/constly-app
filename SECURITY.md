@@ -24,9 +24,16 @@ guarantees.
 | High | 30 days |
 | Anything else | 45 days |
 
-A flaw in a third-party library that Constly cannot reach is updated in the next
-regular release once a fixed version can be used. It is listed under known open
-advisories below until then.
+These targets are for flaws that affect Constly. Severity is the CVSS base
+score: Critical is 9.0 or higher, and High is 7.0 to 8.9. We use the highest
+base score published for the flaw by RustSec, by GitHub or in the library's own
+advisory. Where a source gives only a rating, we treat the flaw as at least
+that rating, whatever the scores. Where nothing is published, we score it
+ourselves with the CVSS calculator.
+
+Whatever its score, a flaw in a third-party library that Constly cannot reach
+is updated in the next regular release once a fixed version can be used. It is
+listed under known open advisories below until then.
 
 When a new advisory is published for a library Constly ships, we aim to assess
 it within 5 business days: whether Constly can reach the flaw, and what closes
